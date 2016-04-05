@@ -1,0 +1,13 @@
+{
+  "name": "RackspaceFileBackend",
+  "author": "Pieter De Praetere",
+  "url": "https://github.com/PACKED-vzw/Mediawiki-Rackspace",
+  "description": "This extension adds support for Rackspace Cloud Files as a File Backend for Mediawiki.",
+  "version": "1.0",
+  "license-name": "GPLv3",
+  "type": "other",
+  "manifest_version": 1,
+  "AutoloadClasses": {
+    "RackspaceCloudFiles": "RackspaceCloudFiles.php"
+  }
+}
