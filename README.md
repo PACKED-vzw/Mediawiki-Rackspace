@@ -1,5 +1,5 @@
 # Mediawiki-Rackspace
-Extension to support Rackspace cloud files as a back-end for Mediawiki file storage.
+Extension to support Rackspace cloud files as a back-end for Mediawiki file storage. It subclasses the internal `SwiftFileBackend` class and updates the autentication function to use the new (V2.0) Rackspace authentication API.
 
 ## Installation
 Download the `RackspaceFileBackend` folder to your `extensions` folder.
