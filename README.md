@@ -48,7 +48,6 @@ $wgLocalFileRepo = array (
 	'backend' => 'Rackspace',
 	'scriptDirUrl'       => $wgScriptPath,
 	'scriptExtension'    => $wgScriptExtension,
-	'url'                => 'http://cdn.cdnprovider.com', //
 	'hashLevels'         => 0,
 	'deletedHashLevels'  => 0,
 	'zones'              => array(
