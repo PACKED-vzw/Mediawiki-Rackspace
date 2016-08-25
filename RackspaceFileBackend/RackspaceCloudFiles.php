@@ -57,7 +57,7 @@ class RackspaceCloudFiles extends SwiftFileBackend {
                 list( $rcode, $rdesc, $rhdrs, $rbody, $rerr ) = $this->http->run( array(
                     'method' => 'POST',
                     'url' => "{$this->swiftAuthUrl}/v2.0/tokens",
-                    'body' => '{"auth":{"RAX-KSKEY:apiKeyCredentials":{"username":"fileserver","apiKey":"e484b7d3233840a9a6e807db05f9529c"}}}',
+                    'body' => '{"auth":{"RAX-KSKEY:apiKeyCredentials":{"username":"'.$this->swiftUser.'","apiKey":"'.$this->swiftKey.'"}}}',
                     'headers' => array(
                         'content-type' => 'application/json'
                     )
